@@ -33,7 +33,7 @@ export const PortfolioComponent = () => {
     else{
         return(
             <section className="container2">
-            <div className="row row-cols-1 gy-3 m-5 row-cols-md-2  row-cols-lg-4 justify-content-center">              
+            <div className="row row-cols-1 gy-3 m-5 row-cols-md-2  row-cols-lg-3 justify-content-center">              
             { 
             projects && projects.map(project => (
                 <Card className="kort1 m-2" key={project.id}>                   
