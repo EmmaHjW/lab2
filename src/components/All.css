@@ -1,0 +1,75 @@
+
+html {
+    font-size: 10px;
+}
+* {
+    padding:0;
+    margin: 0; 
+}
+:root {
+    --primary-color: rgb(87, 126, 98);
+    --text-color: rgb(61, 90, 69);
+}
+.description{
+    margin-top: 0.5rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+.container1 {
+    /* max-width: 960px; */
+    width: 100%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: grid;
+    padding: 5rem;
+    box-shadow: inset 0 0 0 0.5px rgba(255, 255, 255, 0.3), 0 2px 45px rgba(43, 77, 50, 0.7);
+    grid-template-columns: 1fr 1fr;
+    gap: 0rem;
+}
+
+.group-2, .group-3, .group-4, .group-5, .group-6, .group-7 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@media only screen and (max-width: 400px){
+    .group-1{
+        display: flexbox;
+        margin-top: 50%;
+    }
+    .group-2{
+        display: flexbox;
+        margin-bottom: -18%;
+    }
+    .group-3{
+        margin-bottom: 1rem;
+    }
+    .group-4{
+        display: flexbox;
+        margin-bottom: -500%;
+    }
+    .group-5{
+        display: flexbox;
+        margin-top: -90%;
+        margin-bottom: -200%;
+    }
+    .group-6{
+        display: flexbox;
+        margin-bottom: -200%;
+    }
+    .group-7{
+        display: flexbox;
+        margin-top: -125%;
+    }
+    .link{
+       margin-top: 2rem;
+    }
+}
+footer {
+    display: flex;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: var(--text-color);
+}

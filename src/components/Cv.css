@@ -1,0 +1,22 @@
+#columnLeft{
+    margin: 10%;
+
+}
+.multitask{
+    max-width: 550px;
+}
+.FirstTitle2 {
+    color: chocolate;
+    font-weight: 100;
+    font-size: clamp(1rem, 3vw, 2rem);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.1rem;
+    margin-top: 1rem;
+}
+
+/* @media screen and (max-width: 1000px){
+    .multitask{
+        width: 1000%;
+    }
+} */
