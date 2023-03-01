@@ -1,0 +1,102 @@
+{
+    "Anställningar": [
+        {
+            "id" : 1,
+            "rubrik" : "Anställningar",
+            "arbetsplats" : "Qlip4You AB",
+            "anställningsår" : "2016-2022",
+            "titel" : "Frisör"
+        },
+        {
+            "id" : 2,
+            "arbetsplats" : "Rapunzel Of Sweden",
+            "anställningsår" : "2015",
+            "titel" : "Frisör"
+        },
+        {
+            "id" : 3,
+            "arbetsplats" : "Blue I Sverie",
+            "anställningsår" : "2015",
+            "titel" : "Säljare"
+        }
+
+    ],
+    "Utbildningar": [
+        {
+            "id" : 1,
+            "rubrik" : "Utbildningar",
+            "utbildning" : "Systemutvecklare .NET med AI kompetens",
+            "skola" : "Edugrade",
+            "år" : "2022-2024"
+        },
+        {
+            "id" : 2,
+            "utbildning" : "Hanverksprogrammet Frisör",
+            "skola" : "Dragonskolan",
+            "år" : "2007-2010"
+        },
+        {
+            "id" : 3,
+            "utbildning" : "Ledarskapsprogrammet",
+            "skola" : "Dragonskolan",
+            "år" : "2006-2007"
+        }
+
+    ],
+    "Färdigheter": [
+        {
+            "id" : 1,
+            "rubrik" : "Färdigheter",
+            "Ob" : "Objektorienterad programmering med C# och .NET"   
+        },
+        {
+            "id" : 2,
+            "Pr" : "Programmering av databaser och SQL"
+        },
+        {
+            "id" : 3,
+            "Pro" : "Projektledning och Agila metoder"
+        },
+        {
+            "id" : 3,
+            "We" : "Webbutveckling Frontend"   
+        },
+        {
+            "id" : 4,
+            "Web" : "Webbapplikationer i C#, ASP.NET" 
+        },
+        {
+            "id" : 5,
+            "De" : "Designmönster och arkitektur" 
+        },
+        {
+            "id" : 6,
+            "Ai" : "AI-komponenter och machine learning i Microsoft Azure" 
+        },
+        {
+            "id" : 7,
+            "Dev" : "DevOps" 
+        },
+        {
+            "id" : 8,
+            "rubrik" : "Färdigheter sedan tidigare",
+            "Kl" : "Klipp, dam och herr"
+        },
+        {
+            "id" : 9,
+            "Fä" : "Färglära"
+        },
+        {
+            "id" : 10,
+            "Fäb" : "Färgbehandling"
+        },
+        {
+            "id" : 11,
+            "Ku" : "Kundservice"
+        },
+        {
+            "id" : 12,
+            "Fö" : "Försäljning"
+        }      
+    ]
+}
